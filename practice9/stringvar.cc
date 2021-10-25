@@ -29,7 +29,7 @@ StringVar::StringVar(int size){
     //initializes the object so it can accept string values up to size
     //in length. Sets the value of the object equal to the empty string
 }
-StringVar::StringVar(){}
+StringVar::StringVar(){
     //Initializes the object so it can accept string values of length 100
     //or less. Sets the value of the object equal to the empty string.
 }
@@ -99,7 +99,7 @@ void conversation(int max_name_size)
     //testing assignment operation overloading
     StringVar clone2_name(10);
     clone2_name = our_name;
-    cpit << "enter the second clone's name"<<endl;
+    cout << "enter the second clone's name"<<endl;
     clone2_name.input_line(cin);
     cout<< "our name after assignment: "<<our_name<<endl;
     
