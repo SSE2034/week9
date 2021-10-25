@@ -134,7 +134,7 @@ void conversation(int max_name_size)
     cout << text <<  text.length()<<endl;
     //test copy constructor
     Text text1(text);
-    cout << text1 <<  text.length()<<endl;
+    cout << text1 <<  text1.length()<<endl;
     //test assignment operator overloading
     Text text2(2);
     text2 = text;
